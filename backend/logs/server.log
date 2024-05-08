@@ -1,0 +1,8 @@
+[GET] - 200 - /libreria
+[POST] - 201 - /utenti
+[GET] - 200 - /utenti
+[POST] - 201 - /utenti
+[GET] - 200 - /utenti
+[GET] - 200 - /utenti
+[POST] - 201 - /utenti
+[GET] - 200 - /utenti

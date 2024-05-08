@@ -1,0 +1,120 @@
+{
+  "libri": [
+    {
+      "id": "1234567891236",
+      "titolo": "Geronimo Stilton",
+      "autore": "John Doe",
+      "copie_disponibili": 15,
+      "prestiti": []
+    },
+    {
+      "id": "9876543219875",
+      "titolo": "1984",
+      "autore": "George Orwell",
+      "copie_disponibili": 1,
+      "prestiti": [
+        {
+          "id_utente": 1,
+          "data_inizio": "2024-03-11",
+          "data_scadenza": "2024-04-11"
+        }
+      ]
+    },
+    {
+      "id": "1535644678921",
+      "titolo": "La Nebbia",
+      "autore": "Salvador Dali",
+      "copie_disponibili": 7,
+      "prestiti": []
+    }
+  ],
+  "utenti": [
+    {
+      "id": "1",
+      "nome": "Pasquale",
+      "cognome": "Cannavacciuolo",
+      "prestiti": [
+        {
+          "id_libro": "9876543219875",
+          "data_inizio": "2024-03-11",
+          "data_scadenza": "2024-04-11"
+        }
+      ]
+    },
+    {
+      "id": "9ec1",
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "nome_utente": "mario.rossi",
+      "data_nascita": "1990-01-01",
+      "codice_fiscale": "RSSMRA90A01H501G",
+      "email": "mario.rossi@example.com",
+      "password": "password123",
+      "tipo_utente": "Studente"
+    },
+    {
+      "id": "4ffb",
+      "nome": "Keanue",
+      "cognome": "Reeves",
+      "nome_utente": "k.reeves",
+      "data_nascita": "1990-01-01",
+      "codice_fiscale": "RSSMRA90A01H501G",
+      "email": "keanue.reeves@example.com",
+      "password": "password123",
+      "tipo_utente": "Studente"
+    },
+    {
+      "id": "87b7",
+      "nome": "Keanue",
+      "cognome": "Reeves",
+      "nome_utente": "k.reeves",
+      "data_nascita": "1990-01-01",
+      "codice_fiscale": "RSSMRA90A01H501G",
+      "email": "keanue.reeves@example.com",
+      "password": "password123",
+      "tipo_utente": "Studente"
+    },
+    {
+      "id": "674b",
+      "nome": "Paolo",
+      "cognome": "Dezio",
+      "nome_utente": "p.dezxoxo",
+      "data_nascita": "1990-01-01",
+      "codice_fiscale": "RSSMRA90A01H501G",
+      "email": "keanue.reeves@example.com",
+      "password": "password123",
+      "tipo_utente": "Studente"
+    },
+    {
+      "id": "8f10",
+      "password": "password",
+      "codice_fiscale": "CNNPQL97P24E791M",
+      "cognome": "JDK",
+      "tipo_utente": "Studente",
+      "data_nascita": "2002-05-14",
+      "nome": "Java",
+      "email": "jdk@email.com",
+      "nome_utente": "Java_JDK"
+    },
+    {
+      "id": "8817",
+      "password": "1234",
+      "codice_fiscale": "CODICCE_FISCALE",
+      "cognome": "Jdk",
+      "tipo_utente": "Libraio",
+      "data_nascita": "2004-05-19",
+      "nome": "Paolo",
+      "email": "paoloJDK@email.com",
+      "nome_utente": "paolo"
+    }
+  ],
+  "prestiti": [
+    {
+      "id_utente": 1,
+      "id_libro": "9876543219875",
+      "data_inizio": "2024-03-11",
+      "data_scadenza": "2024-04-11",
+      "id": "3b91"
+    }
+  ]
+}

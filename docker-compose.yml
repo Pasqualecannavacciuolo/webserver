@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  webserver_c:
+    image: c_web_server
+    ports:
+      - "5193:5193"
+
+  json_server:
+    image: json-server
+    ports:
+      - "3000:3000"
